@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Issue Tracker - Submit to Google Sheets",
+  "version": "1.0",
+  "description": "A simple checklist to track daily growth tasks.",
+  "permissions": [
+    "activeTab"
+  ],
+  "icons":{
+    "128":"issuetracker.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "issuetracker.png"
+  },
+  "chrome_url_overrides":{
+    "newtab":"popup.html"
+  }
+}

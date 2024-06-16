@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded Google Slides</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      height: 100%;
+      overflow: hidden; 
+      margin-top: 20px;
+    }
+
+    .slide-container {
+      position: fixed;
+      bottom: 20px;
+      right: 0;
+      width: 100vw;
+      height: 100vh; 
+    }
+
+    #slidesFrame {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <h6>Google Slide</h6>
+    <h1>GOOGLE SLIDE</h1>
+    <iframe id="slidesFrame" src="https://docs.google.com/presentation/d/e/2PACX-1vQapvNO8raNNd8l3XvKT9OyLgWUBhQG9b87eWBoYJ_hcwiKmwbWpOx9-groF1jNv6gnuSUcHvtE0Mar/embed?start=false&loop=false&delayms=3000" frameborder="0"></iframe>
+  </div>
+</body>
+</html>
